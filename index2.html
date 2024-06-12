@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>front page</title>
+    <style>
+         
+        
+        body{
+        background-color: antiquewhite;
+        
+        }
+        *{
+        margin: 0;
+        padding: 0;
+        
+        }
+        nav{
+        font-family:'ubuntu',sans-serif ;
+        
+        
+        }
+        nav ul{
+            display: flex;
+            list-style-type: none;
+            align-items: center;
+            height: 80px;
+            background-color: black;
+            color: white;
+
+        }
+        nav ul li{
+            padding: 12px 14px;
+            cursor: pointer;
+
+        }
+        .brand img{
+            width: 50px;
+            background: black;
+            padding: 0 8px;
+            
+        }
+        .brand{
+            display: flex;
+            align-items: center;
+            font-weight: bolder;
+            font-size: 1.5rem;
+
+        }
+        nav ul li.search-bar {
+        display: flex;
+        align-items: flex-end;
+        border-radius: 12px;
+}
+
+nav ul li.search-bar form {
+    display: flex;
+    align-items: flex-end;
+    background-color: black;
+    padding-left: 600px;
+}
+
+nav ul li.search-bar button {
+    padding: 10px 50px;
+    margin-left: 250px;
+    border: none;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+nav ul li.search-bar button:hover {
+    background-color: #0056b3;
+}
+        
+    </style>
+</head>
+<body>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="logo.png" alt="code cube">code cube</li>            
+            <li>Game</li>
+            <li>News</li>
+            <li>About</li>
+            <li class="search-bar">
+                <form action="search" method="GET">
+                    <a href="index.html"><button type="button">Free to Play</button></a>
+                </form>
+            </li>
+
+        </ul>
+
+    </nav>
+</body>
+</html>
